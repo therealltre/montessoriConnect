@@ -138,15 +138,15 @@ export const PATH_DASHBOARD = {
     // demoEdit: path(ROOTS_DASHBOARD, `/events/montessori-teacher/edit`),
   },
 
-  invoice: {
-    root: path(ROOTS_DASHBOARD, '/invoice'),
-    list: path(ROOTS_DASHBOARD, '/invoice/list'),
-    new: path(ROOTS_DASHBOARD, '/invoice/new'),
-    view: (id) => path(ROOTS_DASHBOARD, `/invoice/${id}`),
-    edit: (id) => path(ROOTS_DASHBOARD, `/invoice/${id}/edit`),
-    demoEdit: path(ROOTS_DASHBOARD, '/invoice/e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1/edit'),
-    demoView: path(ROOTS_DASHBOARD, '/invoice/e99f09a7-dd88-49d5-b1c8-1daf80c2d7b5'),
-  },
+  // invoice: {
+  //   root: path(ROOTS_DASHBOARD, '/invoice'),
+  //   list: path(ROOTS_DASHBOARD, '/invoice/list'),
+  //   new: path(ROOTS_DASHBOARD, '/invoice/new'),
+  //   view: (id) => path(ROOTS_DASHBOARD, `/invoice/${id}`),
+  //   edit: (id) => path(ROOTS_DASHBOARD, `/invoice/${id}/edit`),
+  //   demoEdit: path(ROOTS_DASHBOARD, '/invoice/e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1/edit'),
+  //   demoView: path(ROOTS_DASHBOARD, '/invoice/e99f09a7-dd88-49d5-b1c8-1daf80c2d7b5'),
+  // },
 };
 
 //admin-dashboard-----------------------------------------------------
@@ -179,15 +179,15 @@ export const PATH_ADMIN = {
     demoEdit: path(ROOTS_ADMIN, `/user/reece-chung/edit`),
   },
 
-  invoice: {
-    root: path(ROOTS_ADMIN, '/invoice'),
-    list: path(ROOTS_ADMIN, '/invoice/list'),
-    new: path(ROOTS_ADMIN, '/invoice/new'),
-    view: (id) => path(ROOTS_ADMIN, `/invoice/${id}`),
-    edit: (id) => path(ROOTS_ADMIN, `/invoice/${id}/edit`),
-    demoEdit: path(ROOTS_ADMIN, '/invoice/e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1/edit'),
-    demoView: path(ROOTS_ADMIN, '/invoice/e99f09a7-dd88-49d5-b1c8-1daf80c2d7b5'),
-  },
+  // invoice: {
+  //   root: path(ROOTS_ADMIN, '/invoice'),
+  //   list: path(ROOTS_ADMIN, '/invoice/list'),
+  //   new: path(ROOTS_ADMIN, '/invoice/new'),
+  //   view: (id) => path(ROOTS_ADMIN, `/invoice/${id}`),
+  //   edit: (id) => path(ROOTS_ADMIN, `/invoice/${id}/edit`),
+  //   demoEdit: path(ROOTS_ADMIN, '/invoice/e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1/edit'),
+  //   demoView: path(ROOTS_ADMIN, '/invoice/e99f09a7-dd88-49d5-b1c8-1daf80c2d7b5'),
+  // },
 };
 
 //teacher-dashboard-----------------------------------------------------
@@ -243,13 +243,14 @@ export const PATH_TEACHER = {
 
     // demoEdit: path(ROOTS_DASHBOARD, `/user/reece-chung/edit`),
   },
-  invoice: {
-    root: path(ROOTS_TEACHER, '/invoice'),
-    list: path(ROOTS_TEACHER, '/invoice/list'),
-    new: path(ROOTS_TEACHER, '/invoice/new'),
-    view: (id) => path(ROOTS_TEACHER, `/invoice/${id}`),
-    edit: (id) => path(ROOTS_TEACHER, `/invoice/${id}/edit`),
-    demoEdit: path(ROOTS_TEACHER, '/invoice/e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1/edit'),
-    demoView: path(ROOTS_TEACHER, '/invoice/e99f09a7-dd88-49d5-b1c8-1daf80c2d7b5'),
-  },
+
+  // invoice: {
+  //   root: path(ROOTS_TEACHER, '/invoice'),
+  //   list: path(ROOTS_TEACHER, '/invoice/list'),
+  //   new: path(ROOTS_TEACHER, '/invoice/new'),
+  //   view: (id) => path(ROOTS_TEACHER, `/invoice/${id}`),
+  //   edit: (id) => path(ROOTS_TEACHER, `/invoice/${id}/edit`),
+  //   demoEdit: path(ROOTS_TEACHER, '/invoice/e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1/edit'),
+  //   demoView: path(ROOTS_TEACHER, '/invoice/e99f09a7-dd88-49d5-b1c8-1daf80c2d7b5'),
+  // },
 };

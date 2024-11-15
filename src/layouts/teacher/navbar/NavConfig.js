@@ -62,17 +62,17 @@ const navConfig = [
       },
 
       // INVOICE
-      {
-        title: 'invoice',
-        path: PATH_TEACHER.invoice.root,
-        icon: ICONS.invoice,
-        children: [
-          { title: 'list', path: PATH_TEACHER.invoice.list },
-          // { title: 'details', path: PATH_TEACHER.invoice.demoView },
-          { title: 'create', path: PATH_TEACHER.invoice.new },
-          // { title: 'edit', path: PATH_TEACHER.invoice.demoEdit },
-        ],
-      },
+      // {
+      //   title: 'invoice',
+      //   path: PATH_TEACHER.invoice.root,
+      //   icon: ICONS.invoice,
+      //   children: [
+      //     { title: 'list', path: PATH_TEACHER.invoice.list },
+      //     // { title: 'details', path: PATH_TEACHER.invoice.demoView },
+      //     { title: 'create', path: PATH_TEACHER.invoice.new },
+      //     // { title: 'edit', path: PATH_TEACHER.invoice.demoEdit },
+      //   ],
+      // },
     ],
   },
 
