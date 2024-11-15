@@ -25,6 +25,7 @@ import axios from '../../utils/axios';
 import Iconify from '../../components/Iconify';
 
 // ----------------------------------------------------------------------
+const mapaccessToken = process.env.NEXT_PUBLIC_MAP_API_KEY;
 
 const RootStyle = styled('div')(({ theme }) => ({
   // maxWidth: 456,
@@ -80,6 +81,7 @@ export default function HomeHero() {
   const theme = useTheme();
   const isLargeScreen = useMediaQuery(theme.breakpoints.up('lg'));
 
+
   return (
     <RootStyle>
       <MotionContainer>
@@ -95,7 +97,7 @@ export default function HomeHero() {
             {...viewport}
             onViewportChange={setViewport}
             mapStyle="mapbox://styles/mapbox/light-v9"
-            mapboxApiAccessToken={MAPBOX_API}
+            mapboxApiAccessToken={mapaccessToken}
             width={isLargeScreen ? '1440px' : '100%'}
             height={isLargeScreen ? '600px' : '500px'} // Adjust height as needed
             scrollZoom={false} // Disable scroll to zoom
