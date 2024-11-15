@@ -89,7 +89,7 @@ export default function Login() {
 
   return (
     <GuestGuard>
-     {/* <RoleBasedGuard accessibleRoles={['school', 'teacher']}>  */}
+      {/* <RoleBasedGuard accessibleRoles={['school', 'teacher']}>  */}
       <Container maxWidth="2xl">
         <Page title="Login">
           <RootStyle>
@@ -159,7 +159,7 @@ export default function Login() {
           </RootStyle>
         </Page>
       </Container>
-      </GuestGuard>
+    </GuestGuard>
     // {/* </RoleBasedGuard> */}
   );
 }

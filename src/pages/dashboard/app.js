@@ -11,7 +11,6 @@ import Page from '../../components/Page';
 // sections
 import {
   AppWelcome,
-  AppNewInvoice,
   AppMembers,
   AppChart,
   AppWidgetSummary,
@@ -93,9 +92,6 @@ export default function GeneralApp() {
             <AppSchoolMap />
           </Grid> */}
 
-          <Grid item xs={12} lg={12}>
-            <AppNewInvoice />
-          </Grid>
 
           {/* <Grid item xs={12} md={4}>
             <AppFeatured />
